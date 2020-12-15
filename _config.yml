@@ -146,11 +146,12 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             true
+enable_katex:             false
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
 show_social_icons:        false
+enable_math:              true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -170,6 +171,8 @@ fontawesome:
 jquery:
   version: "3.4.1"
   integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+mathjax:
+  version: "3.1.2"
 katex:
   version: "0.11.1"
   integrity:
